@@ -1,0 +1,41 @@
+{
+    "name": "ecommero-api",
+    "version": "1.0.0",
+    "description": "ecommero api",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "colors": "^1.4.0",
+        "cors": "^2.8.5",
+        "express": "^4.18.1",
+        "express-graphql": "^0.12.0",
+        "graphql": "^15.8.0",
+        "mongoose": "^6.3.5",
+        "apollo-server-express": "^2.12.0",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.19.0",
+        "consolidate": "^0.15.1",
+        "dataloader": "^1.4.0",
+        "dotenv": "^8.2.0",
+        "ejs": "^2.6.1",
+        "expo-server-sdk": "^3.2.0",
+        "graphql-upload": "^8.0.4",
+        "http": "0.0.1-security",
+        "jsonwebtoken": "^8.4.0",
+        "nodemailer": "^6.1.1",
+        "paypal-rest-sdk": "^1.8.1",
+        "stripe": "^7.0.1",
+        "tinify": "^1.6.0-beta.2",
+        "uuid": "^3.3.2"
+    },
+    "devDependencies": {
+        "dotenv": "^16.0.1",
+        "nodemon": "^2.0.16"
+    }
+}
